@@ -37,4 +37,5 @@ with open(csv_file, "a", newline="") as f:
         writer.writeheader()
     writer.writerow(record)
 
-print(f"✅ Data saved to {csv_file}") 
+print(f"Data saved to {csv_file}") 
+
