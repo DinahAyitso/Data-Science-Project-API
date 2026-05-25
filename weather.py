@@ -38,4 +38,3 @@ with open(csv_file, "a", newline="") as f:
     writer.writerow(record)
 
 print(f"Data saved to {csv_file}") 
-
